@@ -1,5 +1,6 @@
 #! /bin/tclsh8.5
 
+#Aim - to fetch the lib cells with search pattern from the library 
 
 puts -nonewline "Enter the search pattern"
 flush stdout
@@ -15,4 +16,3 @@ puts [lindex $x $n]
 
 puts "Total items count: $Total_Count"
 #############################################################################
-
