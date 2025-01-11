@@ -14,4 +14,4 @@ Hello World
 
 #---------------------------------------------------------------------#
 
-#it doesn't matter if we mention "stdout" or not in puts command, because it will take that by default
+#it doesn't matter if we mention "stdout" or not in puts command, default option for puts is "stdout".
