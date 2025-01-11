@@ -9,5 +9,6 @@ foreach i [get_object_name [all_registers -clock_pins]] {
                 if {$j == $a} {lappend c $a}
                 }
         }
+        
 }
 puts "[lsort -u $c]"
