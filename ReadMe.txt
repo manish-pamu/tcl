@@ -10,7 +10,16 @@ Notes_1: difference between option and switch
 > all_registers -clock_pins
 #here -clock_pins is a switch
 ----------------------------------------------------------->
-Notes_2:
+Notes_2: When to use [] and when to use {}
 
+[] - 
+frequently used, 
+used for command substitution (or) command nesting (or) command inside a command,
+
+{} - 
+specifying a list,
+conditional statements for example... if, foreach, foreach_in_collection etc
+----------------------------------------------------------->
+Notes_3: 
 
 ----------------------------------------------------------->
