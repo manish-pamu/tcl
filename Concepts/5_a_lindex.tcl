@@ -9,5 +9,7 @@ puts [lindex $var 3 0];              #Output: blue_berry
 puts [lindex $var 3 1];              #Output: black_berry
 puts [lindex $var 4];                #Output: lemon
 
-puts [lindex $var end]               #Output: papaya
-puts [lindex $var end-1]             #Output: lemon
+puts [lindex $var end];              #Output: papaya
+puts [lindex $var end-1];            #Output: lemon
+
+puts [lindex $var [expr [llength $var] - 1]]      #Output: papaya
