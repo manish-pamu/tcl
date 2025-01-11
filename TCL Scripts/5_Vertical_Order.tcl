@@ -1,4 +1,5 @@
 #! /bin/tclsh8.5
+
 #Aim: To print the result list in vertical order
 #It prompts to enter the command as input, for example --> get_lib_cells */BOUNDARY*
 
