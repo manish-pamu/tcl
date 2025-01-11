@@ -17,8 +17,8 @@ frequently used,
 used for command substitution (or) command nesting (or) command inside a command,
 
 {} - 
-specifying a list,
-conditional statements for example... if, foreach, foreach_in_collection etc
+while specifying a list,
+while using conditional statements and looping statements, for example... if, foreach, foreach_in_collection etc
 ----------------------------------------------------------->
 Notes_3: 
 
