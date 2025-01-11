@@ -1,5 +1,5 @@
 Hello viewer...
-This repo contains useful tcl scripts which can be useful during various stages of Physical Design flow.
+This repo contains useful tcl scripts which can be used during various stages of Physical Design flow.
 
 #--------------------------------------------------------------------------------------------------------------->
 Notes_1: difference between option and switch
