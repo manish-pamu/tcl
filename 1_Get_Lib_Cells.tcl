@@ -1,6 +1,6 @@
 #! /bin/tclsh8.5
 
-#Aim - to fetch the lib cells with search pattern from the library 
+#Aim - to fetch the lib cells from the library with a search pattern  
 
 puts -nonewline "Enter the search pattern"
 flush stdout
