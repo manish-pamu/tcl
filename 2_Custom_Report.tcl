@@ -5,7 +5,6 @@
 proc cust_report {} {
 
 puts "\n Custom Report \n Date:  [date]"
-
 puts "+[string repeat "-" 15]+[string repeat "-" 27]+[string repeat "-" 27]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+"
 puts "[format "| %-13s | %-25s | %-25s | %-12s | %-12s | %-12s | %-12s | %-12s |" Path_Group Start_Point End_Point Start_Clock End_Clock Slack Arrival_Time LoL]"
 puts "+[string repeat "-" 15]+[string repeat "-" 27]+[string repeat "-" 27]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+[string repeat "-" 14]+"
@@ -20,7 +19,6 @@ foreach_in_collection path [get_timing_paths] {
     set endpoint_clock [get_object_name [get_attribute $path endpoint_clock]]
     set slack [get_object_name [get_attribute $path slack]]
     set arrival [get_object_name [get_attribute $path arrival]]
-    
     set points [get_object_name [get_attribute $path points]]
     set LoL [expr [expr [llength $points] / 2] - 1]
 
