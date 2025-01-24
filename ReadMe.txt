@@ -18,7 +18,7 @@ Notes_2: When to use [] and when to use {}
 
 {} - 
 - Escape from evaluation
-- while specifying a list,
+- while specifying a list
 - while using conditional statements and looping statements, for example... if, foreach, foreach_in_collection etc
 ----------------------------------------------------------->
 Notes_3: 
