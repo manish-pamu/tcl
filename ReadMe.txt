@@ -13,12 +13,13 @@ Notes_1: difference between option and switch
 Notes_2: When to use [] and when to use {}
 
 [] - 
-frequently used, 
-used for command substitution (or) command nesting (or) command inside a command,
+- frequently used, 
+- used for command substitution (or) command nesting (or) command inside a command,
 
 {} - 
-while specifying a list,
-while using conditional statements and looping statements, for example... if, foreach, foreach_in_collection etc
+- Escape from evaluation
+- while specifying a list,
+- while using conditional statements and looping statements, for example... if, foreach, foreach_in_collection etc
 ----------------------------------------------------------->
 Notes_3: 
 
