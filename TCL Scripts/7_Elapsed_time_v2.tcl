@@ -1,6 +1,7 @@
 #Read a script file having commands and
 #To print elapsed time after each command executes
 
+#refer the example file "7_ex_rndm_commands.tcl"
 set lines [open "rndm_commands.tcl" r]
 set n 1
 
