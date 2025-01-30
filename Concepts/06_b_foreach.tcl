@@ -1,5 +1,6 @@
 #! /bin/tclsh8.5
 
+#example_2
 puts -nonewline "Enter Logic Gate Names (ex: AND OR NOT): "
 flush stdout
 gets stdin gates
