@@ -1,7 +1,7 @@
 #! /bin/tclsh8.5
 
 #example_1
-puts -nonewline "Enter any numbers: "
+puts -nonewline "Enter few numbers seperated by space: "
 flush stdout
 gets stdin num
 
