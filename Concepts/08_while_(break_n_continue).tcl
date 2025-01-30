@@ -5,17 +5,10 @@ set j 1
 while {$j <= 10} {
 
 	set k 1
- 	while {$k <= 3} {
-	
-		if {$k == 2} {
-  		incr k
-    		continue
-		}
-
-      		else {
-		puts "$j ---- $k"
-  		incr k
-		}
+ 	while {$k <= 11} {
+	if {$k == 11} { incr k; puts ""; break } else { puts "$j x $k = [expr $j * $k]"; incr k }
 	}
 
+incr j
 }
+
