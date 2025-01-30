@@ -1,5 +1,6 @@
 #! /bin/tclsh8.5
 
+#example_1
 puts -nonewline "Enter any numbers: "
 flush stdout
 gets stdin num
@@ -17,5 +18,4 @@ foreach i $num {
 	}
 
 }
-
 
