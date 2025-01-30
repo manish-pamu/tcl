@@ -2,7 +2,7 @@
 
 set j 1
 
-while {$j <= 10} {
+while {$j <= 5} {
 
 	set k 1
  	while {$k <= 11} {
