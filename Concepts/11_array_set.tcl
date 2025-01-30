@@ -14,7 +14,7 @@ puts "[lindex $maypd24(phone) 0]";		#Output: 1111
 
 puts [array size maypd24];			#Output: 3
 
-#by default the array will get sorted alphabetical order so we will ge 'id' list first 
+#by default the array will get sorted alphabetical order so we will get 'id' list first 
 puts [lindex [array get maypd24] 0];		#Output: id
 
 puts [array exists maypd24];			#Output: 1
