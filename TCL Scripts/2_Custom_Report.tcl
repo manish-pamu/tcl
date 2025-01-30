@@ -22,7 +22,7 @@ foreach_in_collection path [get_timing_paths] {
     set points [get_object_name [get_attribute $path points]]
     set LoL [expr [expr [llength $points] / 2] - 1]
 
-puts "[format "| %-13s | %-25s | %-25s | %-12s | %-12s | %-12s | %-12s | %-12s |" path_group startpoint endpoint startpoint_clock endpoint_clock slack arrival LoL]"
+puts "[format "| %-13s | %-25s | %-25s | %-12s | %-12s | %-12s | %-12s | %-12s |" $path_group $startpoint $endpoint $startpoint_clock $endpoint_clock $slack $arrival $LoL]"
 
 }
 
