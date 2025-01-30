@@ -10,7 +10,6 @@ for {set i 0} {$i <= 10} {incr i} {
 puts $i
 }
 
-
 #Output:
 0
 1
@@ -30,7 +29,6 @@ for {set i 0} {$i < 10} {incr i} {
 
 puts $i
 }
-
 
 #Output:
 0
