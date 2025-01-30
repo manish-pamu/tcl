@@ -1,1 +1,1 @@
-#! bin/tclsh8.5
+#! /bin/tclsh8.5
