@@ -17,3 +17,11 @@ foreach i $num {
 
 }
 
+#Output:
+The -3 is negative
+The -2 is negative
+The -1 is negative
+The 0 is neutral
+The 1 is positive
+The 2 is positive
+The 3 is positive
