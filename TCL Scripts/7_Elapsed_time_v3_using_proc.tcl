@@ -28,6 +28,7 @@ foreach command $commands {
     		puts "# Elapsed Time		: $elapsed_time_ms"
       		puts "# Command Executed	: $command"
      		puts "#########################################################"
+       		puts "\n\n\n\n\n"
 	}
 
 }
