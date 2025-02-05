@@ -17,7 +17,7 @@ foreach i $num {
 
 }
 
-#Output:
+#Output: if the use enters "-3 -2 -1 0 1 2 3"
 The -3 is negative
 The -2 is negative
 The -1 is negative
