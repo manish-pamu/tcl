@@ -14,3 +14,10 @@ proc repeat {count body} {
 }
 
 repeat 5 { puts "Hello...repeat" }
+
+#Output: 
+Hello...repeat
+Hello...repeat
+Hello...repeat
+Hello...repeat
+Hello...repeat
