@@ -20,7 +20,7 @@ close $lines
 #iterate over each command and call the procedure
 foreach command $commands {
 
-	if {[string trim command] ne ""} {
+	if {[string trim $command] ne ""} {
 
   		#here we are calling the procedure and storing the returned value in variable
 		set elapsed_time_ms [elapsed_time $command]
