@@ -5,7 +5,7 @@ proc elapsed_time {command} {
 
 	set start_time [clock clicks -milliseconds]
 	eval $command
- 	set start_time [clock clicks -milliseconds]
+ 	set end_time [clock clicks -milliseconds]
 
 	set elapsed_time [expr $end_time - $start_time]
  	return $elapsed_time
